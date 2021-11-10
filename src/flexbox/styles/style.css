@@ -1,0 +1,70 @@
+.container {
+    max-width: 123.2rem;
+    padding: 0;
+}
+
+.header-menu {
+    overflow-wrap: break-word;
+    word-wrap: normal;
+    min-height: 8rem;
+    align-items: center;
+}
+
+.header-additional-buttons {
+    justify-content: space-between;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 29.4rem;
+}
+
+.news-section {
+
+    background-color: #F5F6F7;
+}
+
+.news {
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    padding: 1rem;
+}
+
+.card, .card-content, .card-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: #ffffff;
+}
+
+.card {
+    border-radius: 1.6rem;
+    overflow: hidden;
+}
+
+.card-buttons {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-content {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card-buttons, .card-content {
+    padding: 2.4rem;
+}
