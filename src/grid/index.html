@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flexbox</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Source+Sans+Pro&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS Reset -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+
+    <!-- Milligram CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="header-container">
+    <div class="container">
+        <header class="header-menu">
+            <div class="logo"><span>NewsExplorer</span></div>
+            <button class="card-button icon-button hamburger"><img src="./../../assets/menu.svg" alt="delete hover"></button>
+            <div class="header-additional-buttons">
+                <a class="nav-item nav-tab" href="#"><span>Главная</span></a>
+                <a class="nav-item nav-tab" href="#"><span>Сохранённые статьи</span></a>
+                <a class="nav-item" href="#"><span class="profile-button"><span>Грета</span><img src="./../../assets/logout.svg" alt="log out"></span></a>
+            </div>
+        </header>
+    </div>
+</div>
+<div class="container">
+    <section class="nav-section row">
+        <small class="current-tab washed-out">Сохранённые статьи</small>
+        <h2 class="article-counter">Грета, у вас 5<br/> сохранённых статей</h2>
+        <p class="article-tags">По ключевым словам: <strong class="article-tag">Природа</strong>, <strong class="article-tag">Тайга</strong> и <strong class="article-tag">2-м другим</strong></p>
+    </section>
+</div>
+<section class="articles-section">
+    <div class="container">
+        <div class="articles">
+            <div class="card">
+                <div class="card-header">
+                    <img alt="" src="https://picsum.photos/400/300?random=1">
+                    <div class="card-buttons">
+                        <button class="card-button">Природа</button>
+                        <div class="icon-w-tooltip">
+                            <button class="card-button icon-button icon-for-tooltip"><img class="delete-icon" src="./../../assets/trash.svg" alt="delete hover"></button>
+                            <span class="card-button icon-tooltip">Убрать из сохранённых</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <small class="card-date washed-out">2 августа, 2019</small>
+                    <h3 class="card-title">Национальное достояние – парки</h3>
+                    <p class="card-preview">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система
+                        национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
+                        природе.</p>
+                    <small class="card-source washed-out">ДЗЕН</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img alt="" src="https://picsum.photos/400/300?random=2">
+                    <div class="card-buttons">
+                        <button class="card-button">Природа</button>
+                        <div class="icon-w-tooltip">
+                            <button class="card-button icon-button icon-for-tooltip"><img class="delete-icon" src="./../../assets/trash.svg" alt="delete hover"></button>
+                            <span class="card-button icon-tooltip">Убрать из сохранённых</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <small class="card-date washed-out">2 августа, 2019</small>
+                    <h3 class="card-title">Национальное достояние – парки</h3>
+                    <p class="card-preview">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система
+                        национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
+                        природе.</p>
+                    <small class="card-source washed-out">ДЗЕН</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img alt="" src="https://picsum.photos/400/300?random=3">
+                    <div class="card-buttons">
+                        <button class="card-button">Природа</button>
+                        <div class="icon-w-tooltip">
+                            <button class="card-button icon-button icon-for-tooltip"><img class="delete-icon" src="./../../assets/trash.svg" alt="delete hover"></button>
+                            <span class="card-button icon-tooltip">Убрать из сохранённых</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <small class="card-date washed-out">2 августа, 2019</small>
+                    <h3 class="card-title">Национальное достояние – парки</h3>
+                    <p class="card-preview">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система
+                        национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
+                        природе.</p>
+                    <small class="card-source washed-out">ДЗЕН</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img alt="" src="https://picsum.photos/400/300?random=4">
+                    <div class="card-buttons">
+                        <button class="card-button">Природа</button>
+                        <div class="icon-w-tooltip">
+                            <button class="card-button icon-button icon-for-tooltip"><img class="delete-icon" src="./../../assets/trash.svg" alt="delete hover"></button>
+                            <span class="card-button icon-tooltip">Убрать из сохранённых</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <small class="card-date washed-out">2 августа, 2019</small>
+                    <h3 class="card-title">Национальное достояние – парки</h3>
+                    <p class="card-preview">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система
+                        национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
+                        природе.</p>
+                    <small class="card-source washed-out">ДЗЕН</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img alt="" src="https://picsum.photos/400/300?random=5">
+                    <div class="card-buttons">
+                        <button class="card-button">Природа</button>
+                        <div class="icon-w-tooltip">
+                            <button class="card-button icon-button icon-for-tooltip"><img class="delete-icon" src="./../../assets/trash.svg" alt="delete hover"></button>
+                            <span class="card-button icon-tooltip">Убрать из сохранённых</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <small class="card-date washed-out">2 августа, 2019</small>
+                    <h3 class="card-title">Национальное достояние – парки</h3>
+                    <p class="card-preview">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система
+                        национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к
+                        природе.</p>
+                    <small class="card-source washed-out">ДЗЕН</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <footer class="row footer-menu">
+        <div class="license column-25"><span>© 2020 Supersite, Powered by News API</span></div>
+        <div class="footer-menu-inner">
+            <div class="footer-additional-buttons">
+                <div class="footer-links">
+                    <a class="nav-item" href="#"><span>Главная</span></a>
+                    <a class="nav-item" href="#"><span>Яндекс.Практикум</span></a>
+                </div>
+                <div class="footer-socials">
+                    <a class="nav-item" href="#"><span class="icon-container"><img class="icon" src="./../../assets/github.svg" alt="github social" /></span></a>
+                    <a class="nav-item" href="#"><span class="icon-container"><img class="icon" src="./../../assets/fb.svg" alt="facebook social" /></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
