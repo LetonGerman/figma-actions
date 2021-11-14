@@ -81,7 +81,6 @@ a, a:hover, a:focus, .logo {
 
 .header-additional-buttons {
     grid-template-columns: 1fr auto 1fr;
-    margin-right: 1rem;
 }
 
 .footer-additional-buttons {
