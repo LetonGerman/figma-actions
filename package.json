@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
-    "test": "editorconfig-checker",
+    "test": "node-w3c-validator -i src/**/*.html -f html",
     "html": "html-minifier-terser --remove-comments --collapse-whitespace --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --input-dir src --output-dir dist --file-ext html",
     "styles": "postcss src/**/*.css  --base src --verbose --use postcss-import --use postcss-csso --no-map --d dist",
     "build": "npm run html && npm run styles",
