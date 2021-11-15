@@ -22,11 +22,11 @@ jobs:
       - run: npm run styles
       - run: npm run test
       - uses: vishnudxb/cancel-workflow@v1.2
-      if: failure()
-      with:
-        repo: LetonGerman/figma-actions
-        workflow_id: ${{ github.run_id }}
-        access_token: ${{ github.token }}
+        if: failure()
+        with:
+          repo: LetonGerman/figma-actions
+          workflow_id: ${{ github.run_id }}
+          access_token: ${{ github.token }}
   deploy:
     runs-on: ubuntu-latest
     needs: validate
