@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Grid</title>
+    <title>flexbox</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,29 +18,27 @@
 <body>
 <div class="header-container">
     <div class="container">
-        <header class="row header-menu">
+        <header class="header-menu">
             <div class="logo"><span>NewsExplorer</span></div>
             <button class="card-button icon-button hamburger"><img src="./../../assets/menu.svg" alt="delete hover"></button>
-            <div class="header-menu-inner">
-                <div class="header-additional-buttons">
-                    <a class="nav-item nav-tab" href="#"><span>Главная</span></a>
-                    <a class="nav-item nav-tab" href="#"><span>Сохранённые статьи</span></a>
-                    <a class="nav-item" href="#"><span class="profile-button"><span>Грета</span><img src="./../../assets/logout.svg" alt="log out"></span></a>
-                </div>
+            <div class="header-additional-buttons">
+                <a class="nav-item nav-tab" href="#"><span>Главная</span></a>
+                <a class="nav-item nav-tab" href="#"><span>Сохранённые статьи</span></a>
+                <a class="nav-item" href="#"><span class="profile-button"><span>Грета</span><img src="./../../assets/logout.svg" alt="log out"></span></a>
             </div>
         </header>
     </div>
 </div>
-<section class="container">
-    <div class="nav-section row">
+<div class="container">
+    <section class="nav-section row">
         <small class="current-tab washed-out">Сохранённые статьи</small>
         <h2 class="article-counter">Грета, у вас 5<br/> сохранённых статей</h2>
         <p class="article-tags">По ключевым словам: <strong class="article-tag">Природа</strong>, <strong class="article-tag">Тайга</strong> и <strong class="article-tag">2-м другим</strong></p>
-    </div>
-</section>
+    </section>
+</div>
 <section class="articles-section">
     <div class="container">
-        <div class="articles row">
+        <div class="articles">
             <div class="card">
                 <div class="card-header">
                     <img alt="stock news photo" src="https://picsum.photos/400/300?random=1">
