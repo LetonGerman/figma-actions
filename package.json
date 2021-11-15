@@ -29,6 +29,7 @@
     "html-minifier-terser": "^6.0.2",
     "milligram": "^1.4.1",
     "node-w3c-validator": "^2.0.1",
+    "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
     "postcss-csso": "^5.0.1",
     "postcss-import": "^14.0.2",
