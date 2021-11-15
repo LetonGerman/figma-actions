@@ -8,7 +8,8 @@
     "test": "node-w3c-validator -i src/**/*.html -f html",
     "html": "html-minifier-terser --remove-comments --collapse-whitespace --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --input-dir src --output-dir dist --file-ext html",
     "styles": "postcss src/**/*.css  --base src --verbose --use postcss-import --use postcss-csso --no-map --d dist",
-    "build": "npm run html && npm run styles",
+    "build": "npm run html && npm run styles && npm run copy:assets",
+    "copy:assets": "cpx 'src/assets/**' 'dist/assets'",
     "serve": "serve"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/LetonGerman/figma-actions#readme",
   "dependencies": {
     "browser-sync": "^2.27.7",
+    "cpx": "^1.5.0",
     "editorconfig-checker": "^4.0.2",
     "html-minifier": "^4.0.0",
     "html-minifier-terser": "^6.0.2",
